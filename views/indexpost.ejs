@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+    <%- include('imports');-%>
+
+
+  </head>
+  <body>
+    <%- include('Menu');-%>
+    <div class="botao">
+    <a href="/admin/posts/" class="btn btn-primary">Administração de Posts</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+          <% posts.forEach((poste) => { %>
+        
+            <%- include('newpost_card', { poste: poste }); -%>
+        
+          <% }); %>
+        
+      </div>
+    </div>
+
+  </body>
+</html>

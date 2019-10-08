@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "title": "Cervejaria Blumenau",
+        "image": "post1.jpg",
+        "description": "Meu Primeiro post",
+        "body": "A Cerveja Blumenau é mais uma das várias cervejarias artesanais a se visitar em Blumenau e olha que responsabilidade, levar o nome da cidade em sua marca. O slogan da empresa diz que “um cidade apaixonada por cerveja só poderia dar nome a uma cerveja apaixonada por uma cidade” e até a logomarca da empresa faz referência ao ano da fundação de Blumenau (1850), um relógio que marca 18h50."
+    },
+    {
+        "id": 2,
+        "title": "Post 2",
+        "image": "post2.jpg",
+        "description": "Meu Segundo post",
+        "body": "Meu segundo post blah bla"
+    },
+    {
+        "id": 3,
+        "title": "Sistema Automático de Posts",
+        "image": "post2.jpg",
+        "description": "Novo sistema de posts maldito lazarento",
+        "body": "Esse é o novo sistema automático de posts"
+    },
+    {
+        "id": 4,
+        "title": "teste",
+        "description": "agora vai",
+        "image": "post2.jpg",
+        "body": "vaaaai carai"
+    },
+    {
+        "id": 5,
+        "title": "Bugando",
+        "description": "bugando sá poha",
+        "image": "post1.jpg",
+        "body": "só para ver como funcioná essa porcaria"
+    }
+]

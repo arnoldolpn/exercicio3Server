@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    
+    <%- include('imports');-%>
+
+
+  </head>
+  <body>
+    <%- include('Menu');-%>
+    <div class="botao">
+    <a href="/admin/projects/" class="btn btn-primary">Administração de Projetos</a>
+    </div>
+    <div class="container">
+      <div class="row">
+        
+          <% projects.forEach((project) => { %>
+        
+            <%- include('project_card', { project: project }); -%>
+        
+          <% }); %>
+        
+      </div>
+    </div>
+
+  </body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Testimonials </title>
+    <%- include('../../imports'); -%>
+</head>
+
+<body>
+    <%- include('../../Menu'); -%>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-mb-12">
+                <h1>Novo Testimonial</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="create" method="POST">
+                    <div class="form-group">
+                        <label for="testimonialName">Nome</label>
+                        <input name="name" type="text" class="form-control" id="testimonialName" placeholder="Incluir o Nome">
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonialsCompany">Empresa</label>
+                        <input name="company" type="text" class="form-control" id="testimonialsCompany" placeholder="Inserir nome da empresa">
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonialTitle">Cargo</label>
+                        <input name="title" type="text" class="form-control" id="testimonialTitle" placeholder="Inserir seu Cargo"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="testimonialBody">Testimonial</label>
+                        <textarea name="testimony" type="text" class="form-control" id="testimonialBody" placeholder="Inserir Testimonial"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

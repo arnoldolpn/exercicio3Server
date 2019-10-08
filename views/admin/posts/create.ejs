@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Posts </title>
+    <%- include('../../imports'); -%>
+</head>
+
+<body>
+    <%- include('../../Menu'); -%>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-mb-12">
+                <h1>Novo Post</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <form action="create" method="POST">
+                    <div class="form-group">
+                        <label for="postTitle">Título Post</label>
+                        <input name="title" type="text" class="form-control" id="postTitle" placeholder="Título do Post">
+                    </div>
+                    <div class="form-group">
+                        <label for="postImage">Imagem</label>
+                        <input name="image" type="text" class="form-control" id="postImage" placeholder="Inserir Imagem">
+                    </div>
+                    <div class="form-group">
+                        <label for="postDescription">Descrição</label>
+                        <textarea name="description" type="text" class="form-control" id="postDescription" placeholder="Inserir Descrição"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="postBody">Corpo do Post</label>
+                        <textarea name="postBody" type="text" class="form-control" id="postBody" placeholder="Inserir Corpo"></textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Clique em mim</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Salvar</button>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
